@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.left-div {
+    width: 45%;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    float: left;
+}
+
+.right-div {
+    width: 45%;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    float: right;
+}
+
+ol, ul {
+    font-weight: 300;
+}
+
+ol {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: upper-roman;
+    list-style-position: inside;
+}
+
+.lower-div {
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    float: right;
+}
+
+a, a:link {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.back-to-top {
+    float: right;
+}
